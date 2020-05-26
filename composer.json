@@ -1,7 +1,11 @@
 {
-  "name": "openactive/models",
+  "name": "streamline/openactive-models",
+  "description": "Fork of the openactive/models library. See https://github.com/openactive/models-php for original library",
   "type": "library",
   "license": "MIT",
+  "require": {
+    "php": ">=7.*"
+  },
   "autoload": {
     "psr-4": {
       "OpenActive\\": "src/"
